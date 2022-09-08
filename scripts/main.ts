@@ -1,15 +1,14 @@
-type MeuTipo =  {
-  nome: string;
-  idade?: number;
-}
-
-let pessoa: MeuTipo;
-
-pessoa = {
-  nome: 'mm',
-  idade: 20,
-  
+enum Direction {
+  Left = 'esquerda', 
+  Right =  'Direita'
 }
 
 
-console.log(pessoa)
+
+function handleMovement(direction : Direction){
+  if(direction === Direction.Left){
+    console.log("Esquerda")
+  }else {
+    console.log("Direita")
+  }
+}
