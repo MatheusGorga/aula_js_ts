@@ -1,3 +1,5 @@
-import { numero } from "./numeros.js";
+const url = 'http://localhost:3002/api/';
 
-console.log(numero.PI)
+fetch(`${url}cursos`)
+  .then(response => response.json())
+  .then(data => console.log(data))
