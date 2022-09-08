@@ -1,14 +1,5 @@
-enum Direction {
-  Left = 'esquerda', 
-  Right =  'Direita'
-}
+let minhaVariavel:any = 'teste';
+var novaVar = (minhaVariavel as string).replace("teste", "péste")
 
 
-
-function handleMovement(direction : Direction){
-  if(direction === Direction.Left){
-    console.log("Esquerda")
-  }else {
-    console.log("Direita")
-  }
-}
+console.log(novaVar)
