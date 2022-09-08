@@ -1,5 +1,15 @@
-let a : number;
+type MeuTipo =  {
+  nome: string;
+  idade?: number;
+}
 
-a = 5;
+let pessoa: MeuTipo;
 
-console.log(a)
+pessoa = {
+  nome: 'mm',
+  idade: 20,
+  
+}
+
+
+console.log(pessoa)
