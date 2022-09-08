@@ -1,5 +1,13 @@
-let minhaVariavel:any = 'teste';
-var novaVar = (minhaVariavel as string).replace("teste", "péste")
+interface pessoa  {
+  nome: string;
+}
+
+interface pessoa {
+  idade: number;
+}
 
 
-console.log(novaVar)
+let pessoa : pessoa = {
+  nome: 'asdasd',
+  idade: 10
+}
